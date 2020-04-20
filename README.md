@@ -86,8 +86,8 @@ If key does not exist, a new sorted set with the specified members as sole membe
 
 `/api/v1/books/add/find?praram1=x&param2=y`
 
-##### Time Complexity: O(log(N)+M)
-		 N being the number of elements in the sorted set and M the number of elements returned.
+##### Time Complexity: O(log(N)+C)
+		 N being the number of elements in the sorted set and C the number of elements returned.
 
 Returns the specified range of elements in the sorted set stored at key. The elements are considered to be ordered from the lowest to the highest score. Lexicographical order is used for elements with equal score.
 
