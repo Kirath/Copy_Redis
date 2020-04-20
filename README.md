@@ -5,7 +5,6 @@ This is a prototype for Redis with some basic functionalities. Itan be used like
 ### Table of Contents
 ---
  <details>
-   <summary>Click to expand!</summary>
 
    ##### Redis-Clone
    1. Usage
